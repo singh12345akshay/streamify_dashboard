@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Dashboard Project - React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive dashboard application built using React, TypeScript, and Vite. It is configured with ESLint for code quality and consistency and is deployed on Vercel.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive data visualizations and charts.
+- Responsive design for seamless usage across devices.
+- Minimal setup with Vite for fast development.
+- `.nvmrc` and `.npmrc` files for consistent Node.js and npm versions.
+- Deployed production version available for easy access.
 
-## Expanding the ESLint configuration
+## Project Setup and Development
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these steps to run the project locally:
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Ensure you have `nvm` (Node Version Manager) installed. If not, install it from [nvm-sh/nvm](https://github.com/nvm-sh/nvm).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Steps to Run Locally
+
+1. **Clone the Repository**  
+   Clone the repository and navigate to the project directory:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+2. Set Node.js Version
+    Use the .nvmrc file to switch to the suitable Node.js version:
+   ```bash
+    nvm use
+
+4. Install Dependencies
+    Install all necessary dependencies:
+   ```bash
+    npm install
+   
+5. Run Development Server
+      Start the development server:
+  ```bash
+  npm run dev
+ ```
+The application will be available at http://localhost:3000.
+
+Production
+The application is deployed on Vercel. You can access the production version here:
+
+Click Here: https://analytics-dashboard-one-phi.vercel.app/

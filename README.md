@@ -45,4 +45,4 @@ The application will be available at http://localhost:3000.
 Production
 The application is deployed on Vercel. You can access the production version here:
 
-Click Here: https://analytics-dashboard-one-phi.vercel.app/
+Click Here: [https://analytics-dashboard-one-phi.vercel.app/](https://streamify-dashboard-pink.vercel.app/)

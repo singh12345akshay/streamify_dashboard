@@ -1,61 +1,72 @@
 import React from 'react';
 
-import { ElectricVehicle } from '@/pages/dashboard/dashboard';
+import { ActiveUser, Revenue, Star, Stream, User } from '@/assets/icons';
+import { IKeyMetrics } from '@/store/dashboardSlice';
 
 interface KeyMetricsProps {
-  data: ElectricVehicle[];
+  data: IKeyMetrics;
 }
 
+/**
+ * @function KeyMetrics
+ * @param {KeyMetricsProps} param0
+ * @returns {JSX.Element}
+ */
 const KeyMetrics = ({ data }: KeyMetricsProps) => {
-  const totalVehicles = data.length;
-  const totalElectricRange = data.reduce(
-    (sum, item) => sum + (parseInt(item['electricRange']) || 0),
-    0,
-  );
-  const avgElectricRange = totalVehicles
-    ? (totalElectricRange / totalVehicles).toFixed(2)
-    : 0;
-
-  const cleanFuelEligible = data.filter(
-    (item) =>
-      item['cleanAlternativeFuelVehicleCafvEligibility'] ===
-      'Clean Alternative Fuel Vehicle Eligible',
-  ).length;
-
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-      <div className="bg-gray-800 p-6 rounded-lg shadow py-12 pl-12">
+    <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+      {/* Total Users */}
+      <div className="bg-gray-800 p-6 rounded-lg shadow">
         <div className="flex justify-between items-center">
-          <h2 className="text-xl font-bold text-white">Total Vehicles</h2>
+          <h2 className="text-xl font-bold text-textColor">Total Users</h2>
+          <User className="size-4 text-textColor" />
         </div>
-        <p className="text-3xl font-semibold text-[#64b6f7] mt-4">
-          {totalVehicles}
+        <p className="text-2xl font-semibold text-[#64b6f7] mt-4">
+          {data.totalUsers?.toLocaleString()}
         </p>
       </div>
-      <div className="bg-gray-800 p-6 rounded-lg shadow py-12 pl-12">
+
+      {/* Active Users */}
+      <div className="bg-gray-800 p-6 rounded-lg shadow">
         <div className="flex justify-between items-center">
-          <h2 className="text-xl font-bold text-white">Total Electric Range</h2>
+          <h2 className="text-xl font-bold text-textColor">Active Users</h2>
+          <ActiveUser className="size-4 text-textColor" />
         </div>
-        <p className="text-3xl font-semibold text-[#64b6f7] mt-4">
-          {totalElectricRange} miles
+        <p className="text-2xl font-semibold text-[#64b6f7] mt-4">
+          {data.activeUsers?.toLocaleString()}
         </p>
       </div>
-      <div className="bg-gray-800 p-6 rounded-lg shadow py-12 pl-12">
+
+      {/* Total Streams */}
+      <div className="bg-gray-800 p-6 rounded-lg shadow">
         <div className="flex justify-between items-center">
-          <h2 className="text-xl font-bold text-white">
-            Average Electric Range
-          </h2>
+          <h2 className="text-xl font-bold text-textColor">Total Streams</h2>
+          <Stream className="size-4 text-textColor" />
         </div>
-        <p className="text-3xl font-semibold text-[#64b6f7] mt-4">
-          {avgElectricRange} miles
+        <p className="text-2xl font-semibold text-[#64b6f7] mt-4">
+          {data.totalStreams?.toLocaleString()}
         </p>
       </div>
-      <div className="bg-gray-800 p-6 rounded-lg shadow py-12 pl-12">
+
+      {/* Revenue */}
+      <div className="bg-gray-800 p-6 rounded-lg shadow">
         <div className="flex justify-between items-center">
-          <h2 className="text-xl font-bold text-white">Clean Fuel Eligible</h2>
+          <h2 className="text-xl font-bold text-textColor">Revenue</h2>
+          <Revenue className="size-4 text-textColor" />
         </div>
-        <p className="text-3xl font-semibold text-[#64b6f7] mt-4">
-          {cleanFuelEligible}
+        <p className="text-2xl font-semibold text-[#64b6f7] mt-4">
+          ${data.revenue?.toFixed(2)}
+        </p>
+      </div>
+
+      {/* Top Artist */}
+      <div className="bg-gray-800 p-6 rounded-lg shadow">
+        <div className="flex justify-between items-center">
+          <h2 className="text-xl font-bold text-textColor">Top Artist</h2>
+          <Star className="size-4 text-textColor" />
+        </div>
+        <p className="text-2xl font-semibold text-[#64b6f7] mt-4">
+          {data.topArtist}
         </p>
       </div>
     </div>

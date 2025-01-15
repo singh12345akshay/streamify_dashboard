@@ -1,0 +1,482 @@
+{
+  "keyMetrics": {
+    "totalUsers": 10000,
+    "activeUsers": 3200,
+    "totalStreams": 1500000,
+    "revenue": 52000.75,
+    "topArtist": "Marissa Smith"
+  },
+  "userGrowth": [
+    {
+      "month": "Jan 2025",
+      "totalUsers": 8097,
+      "activeUsers": 2656
+    },
+    {
+      "month": "Dec 2024",
+      "totalUsers": 5853,
+      "activeUsers": 3536
+    },
+    {
+      "month": "Nov 2024",
+      "totalUsers": 7350,
+      "activeUsers": 2661
+    },
+    {
+      "month": "Oct 2024",
+      "totalUsers": 6328,
+      "activeUsers": 2888
+    },
+    {
+      "month": "Sep 2024",
+      "totalUsers": 6233,
+      "activeUsers": 2111
+    },
+    {
+      "month": "Aug 2024",
+      "totalUsers": 7457,
+      "activeUsers": 3998
+    },
+    {
+      "month": "Jul 2024",
+      "totalUsers": 6489,
+      "activeUsers": 3959
+    },
+    {
+      "month": "Jun 2024",
+      "totalUsers": 9185,
+      "activeUsers": 2371
+    },
+    {
+      "month": "May 2024",
+      "totalUsers": 8304,
+      "activeUsers": 3850
+    },
+    {
+      "month": "Apr 2024",
+      "totalUsers": 6006,
+      "activeUsers": 2569
+    },
+    {
+      "month": "Mar 2024",
+      "totalUsers": 5505,
+      "activeUsers": 3930
+    },
+    {
+      "month": "Feb 2024",
+      "totalUsers": 9805,
+      "activeUsers": 3510
+    }
+  ],
+  "revenueDistribution": {
+    "2024": [
+      { "source": "Subscriptions", "value": 41370.07 },
+      { "source": "Ads", "value": 12644.6 },
+      { "source": "Affiliate Marketing", "value": 5430 },
+      { "source": "In-App Purchases", "value": 3555.33 }
+    ],
+    "2023": [
+      { "source": "Subscriptions", "value": 36300 },
+      { "source": "Ads", "value": 14400 },
+      { "source": "Affiliate Marketing", "value": 6200 },
+      { "source": "In-App Purchases", "value": 4100 }
+    ],
+    "2022": [
+      { "source": "Subscriptions", "value": 32000 },
+      { "source": "Ads", "value": 11000 },
+      { "source": "Affiliate Marketing", "value": 7000 },
+      { "source": "In-App Purchases", "value": 3500 }
+    ],
+    "2021": [
+      { "source": "Subscriptions", "value": 26000 },
+      { "source": "Ads", "value": 10500 },
+      { "source": "Affiliate Marketing", "value": 6000 },
+      { "source": "In-App Purchases", "value": 3000 }
+    ],
+    "2020": [
+      { "source": "Subscriptions", "value": 20000 },
+      { "source": "Ads", "value": 9000 },
+      { "source": "Affiliate Marketing", "value": 5000 },
+      { "source": "In-App Purchases", "value": 2500 }
+    ]
+  },
+  "topSongs": [
+    {
+      "song": "Job happy between.",
+      "artist": "Jillian Jacobson",
+      "streams": 38283
+    },
+    {
+      "song": "Read high hand.",
+      "artist": "Caitlin Bailey",
+      "streams": 42914
+    },
+    {
+      "song": "Some agency.",
+      "artist": "Michelle Escobar",
+      "streams": 46615
+    },
+    {
+      "song": "Cut.",
+      "artist": "Ashley Palmer",
+      "streams": 38275
+    },
+    {
+      "song": "Nearly particular notice while.",
+      "artist": "Bonnie Valenzuela",
+      "streams": 22000
+    }
+  ],
+  "recentStreams": [
+    {
+      "songName": "Free wall.",
+      "artist": "Sherri Norman",
+      "dateStreamed": "2024-12-29",
+      "streamCount": 98,
+      "userID": "0d29a0a7-e0c0-4006-897e-0afd59e70ce5"
+    },
+    {
+      "songName": "Assume theory indicate.",
+      "artist": "David Jackson",
+      "dateStreamed": "2024-12-26",
+      "streamCount": 76,
+      "userID": "e7932f29-85e0-449b-8a95-0dc014676e60"
+    },
+    {
+      "songName": "Customer end agree.",
+      "artist": "Brittney Potter",
+      "dateStreamed": "2024-12-28",
+      "streamCount": 71,
+      "userID": "04f5defd-6a9d-43d2-8ca4-1279207e1946"
+    },
+    {
+      "songName": "Walk general.",
+      "artist": "Christine Curtis",
+      "dateStreamed": "2025-01-05",
+      "streamCount": 23,
+      "userID": "dd51b96c-14de-46a8-ae42-5d4c9abbcff3"
+    },
+    {
+      "songName": "Good partner include.",
+      "artist": "Jesus Vaughn",
+      "dateStreamed": "2024-12-17",
+      "streamCount": 9,
+      "userID": "e61c2951-5714-4f38-b29d-5ae77cc6c4b1"
+    },
+    {
+      "songName": "Ago effect push.",
+      "artist": "Carol Morrison",
+      "dateStreamed": "2024-12-25",
+      "streamCount": 79,
+      "userID": "3533c9a6-abd9-479e-82a4-7c2e31d771ad"
+    },
+    {
+      "songName": "Sport per major.",
+      "artist": "Caleb Copeland",
+      "dateStreamed": "2024-12-19",
+      "streamCount": 71,
+      "userID": "ae682c7b-95f8-4843-a83b-4b967cd931c6"
+    },
+    {
+      "songName": "Instead high.",
+      "artist": "Melissa Ramos",
+      "dateStreamed": "2024-12-20",
+      "streamCount": 43,
+      "userID": "6a00ddb2-d654-43b3-9e18-b242ce935c04"
+    },
+    {
+      "songName": "Bed enjoy.",
+      "artist": "Danielle Stein",
+      "dateStreamed": "2025-01-10",
+      "streamCount": 51,
+      "userID": "513db2e7-f797-4377-8ff7-c2b2537be830"
+    },
+    {
+      "songName": "Just.",
+      "artist": "Thomas Taylor",
+      "dateStreamed": "2024-12-17",
+      "streamCount": 31,
+      "userID": "5dc740d5-4b47-48c1-a1c6-0bc9b94d16a9"
+    },
+    {
+      "songName": "Down.",
+      "artist": "Crystal Brown",
+      "dateStreamed": "2025-01-12",
+      "streamCount": 81,
+      "userID": "8d83be4e-9548-420f-9d92-55739e29b080"
+    },
+    {
+      "songName": "Road many.",
+      "artist": "Brittney Marshall",
+      "dateStreamed": "2025-01-06",
+      "streamCount": 16,
+      "userID": "7a0f1b9a-9b33-48c2-95ac-4ae75fd87e75"
+    },
+    {
+      "songName": "Tree current TV.",
+      "artist": "Angela Davis",
+      "dateStreamed": "2024-12-15",
+      "streamCount": 16,
+      "userID": "1eee35a3-e2a5-4878-bf4f-bfd5d153542c"
+    },
+    {
+      "songName": "Poor middle.",
+      "artist": "Craig Ross",
+      "dateStreamed": "2025-01-13",
+      "streamCount": 38,
+      "userID": "d94a150c-d14c-4f52-abfa-4a782f55a94b"
+    },
+    {
+      "songName": "Until form.",
+      "artist": "Stephanie Wade",
+      "dateStreamed": "2025-01-13",
+      "streamCount": 46,
+      "userID": "0537cc88-7711-4ac2-b6a1-41765742a06d"
+    },
+    {
+      "songName": "You dinner visit.",
+      "artist": "Natalie Griffin",
+      "dateStreamed": "2025-01-08",
+      "streamCount": 60,
+      "userID": "a9f65560-e597-4314-a62f-8d4cdbaf19db"
+    },
+    {
+      "songName": "Must shake.",
+      "artist": "Brandi Grant",
+      "dateStreamed": "2024-12-27",
+      "streamCount": 41,
+      "userID": "be8cebfa-2a4e-4364-8fed-83bda9c4f690"
+    },
+    {
+      "songName": "Instead include.",
+      "artist": "Ryan Garner",
+      "dateStreamed": "2025-01-09",
+      "streamCount": 82,
+      "userID": "565c30db-60c8-44ce-94b5-34862f3d07fb"
+    },
+    {
+      "songName": "Kid hair value.",
+      "artist": "Miss Angela Williams",
+      "dateStreamed": "2025-01-03",
+      "streamCount": 11,
+      "userID": "27e6622f-c434-43ce-bcdd-5bd600eb8525"
+    },
+    {
+      "songName": "Week threat where debate.",
+      "artist": "Mary Lopez",
+      "dateStreamed": "2024-12-31",
+      "streamCount": 81,
+      "userID": "d4665537-9974-473f-9442-c58083c9cc97"
+    },
+    {
+      "songName": "Blue vote.",
+      "artist": "Randy Pham",
+      "dateStreamed": "2025-01-08",
+      "streamCount": 73,
+      "userID": "b6deac12-7c31-45a0-be82-7e9609af2e8e"
+    },
+    {
+      "songName": "Old camera produce.",
+      "artist": "Tamara Adams",
+      "dateStreamed": "2025-01-02",
+      "streamCount": 60,
+      "userID": "fa53a37c-d598-4f99-bddc-230ca0a90703"
+    },
+    {
+      "songName": "Notice positive street.",
+      "artist": "Ronald Allison",
+      "dateStreamed": "2024-12-24",
+      "streamCount": 95,
+      "userID": "ec3ed7a0-c02c-4183-82a5-12aaad04889f"
+    },
+    {
+      "songName": "Specific successful dinner.",
+      "artist": "Travis Montoya",
+      "dateStreamed": "2025-01-11",
+      "streamCount": 75,
+      "userID": "57fb2fc3-4893-4962-8531-65970e824972"
+    },
+    {
+      "songName": "Senior whose.",
+      "artist": "Sydney Silva",
+      "dateStreamed": "2024-12-29",
+      "streamCount": 83,
+      "userID": "c5fa5aa9-2fd3-4cd7-97fb-7a0460d16ee3"
+    },
+    {
+      "songName": "While military.",
+      "artist": "Megan Alexander",
+      "dateStreamed": "2025-01-04",
+      "streamCount": 33,
+      "userID": "221ad921-2bff-47af-9ee0-21fc20adc454"
+    },
+    {
+      "songName": "Something soldier.",
+      "artist": "Alex Kramer",
+      "dateStreamed": "2024-12-24",
+      "streamCount": 37,
+      "userID": "4b0940f5-4b6e-414c-8fcd-5baa52b36dfa"
+    },
+    {
+      "songName": "Actually learn.",
+      "artist": "Michael Hernandez",
+      "dateStreamed": "2025-01-06",
+      "streamCount": 64,
+      "userID": "51851bf3-f202-44e7-92f7-21d00279b7e5"
+    },
+    {
+      "songName": "Country difference.",
+      "artist": "Patrick Reeves",
+      "dateStreamed": "2025-01-06",
+      "streamCount": 93,
+      "userID": "572f64af-f116-47dd-9829-237881672d30"
+    },
+    {
+      "songName": "Despite focus.",
+      "artist": "Leah Davis",
+      "dateStreamed": "2024-12-14",
+      "streamCount": 14,
+      "userID": "186fdf21-8711-456f-99b5-ce70247e81e4"
+    },
+    {
+      "songName": "Five item account.",
+      "artist": "Joseph Richards",
+      "dateStreamed": "2025-01-08",
+      "streamCount": 7,
+      "userID": "35a3ed7f-1f71-4b92-b181-41394cbaab9d"
+    },
+    {
+      "songName": "Current action.",
+      "artist": "Daniel Villarreal",
+      "dateStreamed": "2025-01-07",
+      "streamCount": 66,
+      "userID": "a0bc8789-fa57-46f0-84ba-e261e342cbf3"
+    },
+    {
+      "songName": "Rich movement.",
+      "artist": "Jeffrey Reese",
+      "dateStreamed": "2025-01-12",
+      "streamCount": 37,
+      "userID": "905ebf4f-2a5a-4f9f-a758-3e44d531680e"
+    },
+    {
+      "songName": "Contain probably.",
+      "artist": "Richard Ramirez",
+      "dateStreamed": "2024-12-22",
+      "streamCount": 86,
+      "userID": "042b8f01-586f-4869-8d43-64bd95fbbe18"
+    },
+    {
+      "songName": "Painting enter.",
+      "artist": "Joanne Alvarez",
+      "dateStreamed": "2024-12-25",
+      "streamCount": 51,
+      "userID": "54cca7f6-f990-46d6-9e18-df36aa4ed102"
+    },
+    {
+      "songName": "Push reflect.",
+      "artist": "Joshua Ali",
+      "dateStreamed": "2025-01-04",
+      "streamCount": 74,
+      "userID": "996f3094-ae82-413c-babd-1df06f97aae3"
+    },
+    {
+      "songName": "Water his modern.",
+      "artist": "James Miller",
+      "dateStreamed": "2025-01-08",
+      "streamCount": 95,
+      "userID": "1d02d907-1a67-4eec-af8d-0c47dbdaae05"
+    },
+    {
+      "songName": "Sign box final.",
+      "artist": "Jacqueline Berry",
+      "dateStreamed": "2024-12-31",
+      "streamCount": 94,
+      "userID": "047a73fc-6a9f-4828-83a8-214bc659a973"
+    },
+    {
+      "songName": "Hand energy out.",
+      "artist": "Michele Harris",
+      "dateStreamed": "2024-12-22",
+      "streamCount": 49,
+      "userID": "c944bc7c-b472-4588-add2-5dc1fa108e74"
+    },
+    {
+      "songName": "Around heart article.",
+      "artist": "Joshua Holden",
+      "dateStreamed": "2025-01-08",
+      "streamCount": 45,
+      "userID": "18d098ce-a8c7-48a8-a668-cfbe30cd3246"
+    },
+    {
+      "songName": "Daughter building want like.",
+      "artist": "Karen Thompson",
+      "dateStreamed": "2025-01-12",
+      "streamCount": 60,
+      "userID": "120779da-44ff-495e-b06c-0871132d5b22"
+    },
+    {
+      "songName": "Himself start.",
+      "artist": "Laura Cain",
+      "dateStreamed": "2024-12-26",
+      "streamCount": 3,
+      "userID": "c4cd6ed5-e65e-4e26-b20c-68b932b5bbe8"
+    },
+    {
+      "songName": "Trade choice benefit.",
+      "artist": "Mark Yu",
+      "dateStreamed": "2024-12-26",
+      "streamCount": 37,
+      "userID": "64274b4e-5b8b-4abe-87a7-07b95e2fbf8b"
+    },
+    {
+      "songName": "Enter visit particular.",
+      "artist": "Emily Pacheco",
+      "dateStreamed": "2025-01-07",
+      "streamCount": 69,
+      "userID": "92319184-42d9-4743-b79e-40432e75cda2"
+    },
+    {
+      "songName": "Join agent.",
+      "artist": "Timothy Thomas",
+      "dateStreamed": "2024-12-21",
+      "streamCount": 74,
+      "userID": "3dd1ede0-e02f-420c-8f74-6a4155897620"
+    },
+    {
+      "songName": "Option similar watch.",
+      "artist": "Arthur Jones",
+      "dateStreamed": "2024-12-24",
+      "streamCount": 54,
+      "userID": "b4fd69fc-3133-4df7-8a21-7c7713668592"
+    },
+    {
+      "songName": "Often tough agent lead.",
+      "artist": "Donna Butler",
+      "dateStreamed": "2024-12-29",
+      "streamCount": 74,
+      "userID": "83de590f-dfea-4281-8aef-def7a429cb76"
+    },
+    {
+      "songName": "Cultural school through.",
+      "artist": "Maria Curtis",
+      "dateStreamed": "2025-01-05",
+      "streamCount": 23,
+      "userID": "c2e97031-e382-430c-9295-6d869cf84daa"
+    },
+    {
+      "songName": "Adult.",
+      "artist": "Jessica Neal",
+      "dateStreamed": "2024-12-23",
+      "streamCount": 40,
+      "userID": "75db1a3f-a807-4bac-b417-e2ce137aecf3"
+    },
+    {
+      "songName": "Woman eight audience.",
+      "artist": "Brett Morgan III",
+      "dateStreamed": "2025-01-10",
+      "streamCount": 90,
+      "userID": "c73896c7-963b-47f2-b7f8-52b40dbe64ef"
+    }
+  ]
+}

@@ -38,6 +38,7 @@ const config = {
           900: 'var(--blue-900)',
         },
         brandColor: 'var(--brand-color)',
+        textColor:'#D1D1D1',
         mutedBrand: 'var(--muted-brand-color)',
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
